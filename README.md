@@ -1,5 +1,5 @@
 # PixelFormer_efficient_attention
-Aims to reduce the latency while maintaining performance for monocular depth estimation. [Report](https://github.com/Mihir-Deshmukh/PixelFormer_efficient_attention/blob/main/Towards%20Low-Latency%20Monocular%20Depth%20Estimation_Report.pdf)
+Aims to reduce the inference time while maintaining performance for monocular depth estimation. [Report](https://github.com/Mihir-Deshmukh/PixelFormer_efficient_attention/blob/main/Towards%20Low-Latency%20Monocular%20Depth%20Estimation_Report.pdf)
 
 ## Modifications
 - Added a PixelFormer_new.py to accommodate the new attention mechanisms used.
