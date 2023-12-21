@@ -4,9 +4,9 @@ Aims to reduce the inference time while maintaining performance for monocular de
 ## Modifications
 - Added a PixelFormer_new.py to accommodate the new attention mechanisms used.
 - Added SAM_cosine.py to use cosine similarity window attention instead of dot product window attention.
-- Replaced the window attention with the below two attention mechanisms for fusing encoder and decoder features with global context which improves the baseline model performance.
+- Replaced the window attention with the below two attention mechanisms for fusing encoder and decoder features with global context (instead of the 7*7 window used in the original work) which improves the baseline model performance.
   - Added SAM_efficient.py which implements [Efficient Attention](https://arxiv.org/abs/1812.01243) inside the skip attention module.
-  - Added SAM_fast.py which implements [FAVOR+ Attention](https://arxiv.org/abs/2009.14794) inside the skip attention module
+  - Added SAM_fast.py which implements [FAVOR+ Attention](https://arxiv.org/abs/2009.14794) inside the skip attention module.
 
 ## Pretrained Models (NYU DepthV2)
 - Download all the models from this [Link](https://drive.google.com/drive/folders/1fVyQnh1IAaJc3OVptSXZ0MkysYpbAVTo?usp=drive_link) and place them in the \pretrained folder.
