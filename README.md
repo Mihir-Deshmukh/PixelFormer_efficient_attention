@@ -13,4 +13,4 @@ Aims to reduce the inference time while maintaining performance for monocular de
 - Environment setup and how to run are mentioned in the PixelFormer.ipynb
 
 ## Acknowledgements
-Most of the code has been adapted from [PixelFormer](https://github.com/ashutosh1807/PixelFormer). Please refer to their repo for the whole architecture.
+The code utilized in this project has been adapted from the [PixelFormer](https://github.com/ashutosh1807/PixelFormer) repository. For a comprehensive view of the entire architecture, please refer to the original repository.
