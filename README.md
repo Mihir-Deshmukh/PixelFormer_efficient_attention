@@ -1,7 +1,7 @@
 # PixelFormer_efficient_attention
 Improved monocular depth estimation
 
-##Modifications
+## Modifications
 
-### Acknowledgements
+## Acknowledgements
 Most of the code has been adapted from [PixelFormer](https://github.com/ashutosh1807/PixelFormer).
