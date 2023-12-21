@@ -1,0 +1,11 @@
+--model_name pixelformer_nyu
+--encoder large07
+--dataset nyu
+--input_height 480
+--input_width 640
+--max_depth 10
+
+--data_path datasets/test
+--filenames_file data_splits/nyudepthv2_test_files_with_gt.txt
+
+--checkpoint_path pretrained/nyu_efficient.pth
