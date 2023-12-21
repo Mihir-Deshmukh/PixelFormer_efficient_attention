@@ -1,10 +1,10 @@
 # PixelFormer_efficient_attention
-Improved monocular depth estimation
+Improved monocular depth estimation.
 
 ## Modifications
 - Added a PixelFormer_new.py to accommodate the new attention mechanisms used.
 - Added SAM_cosine.py to use cosine similarity window attention instead of dot product window attention.
-- Replaced the window attention with the below two attention mechanisms for fusing encoder and decoder features with global context.
+- Replaced the window attention with the below two attention mechanisms for fusing encoder and decoder features with global context which improves the baseline model performance.
   - Added SAM_efficient.py which implements [Efficient Attention](https://arxiv.org/abs/1812.01243) inside the skip attention module.
   - Added SAM_fast.py which implements [FAVOR+ Attention](https://arxiv.org/abs/2009.14794) inside the skip attention module
 
