@@ -8,12 +8,15 @@ Aims to reduce the inference time while maintaining performance for monocular de
   - Added SAM_efficient.py which implements [Efficient Attention](https://arxiv.org/abs/1812.01243) inside the skip attention module.
   - Added SAM_fast.py which implements [FAVOR+ Attention](https://arxiv.org/abs/2009.14794) inside the skip attention module.
 
+Result Comparison:
+![Model Comparison](comparison.png)
+
 ## Pretrained Models (NYU DepthV2)
 - Download all the models from this [Link](https://drive.google.com/drive/folders/1fVyQnh1IAaJc3OVptSXZ0MkysYpbAVTo?usp=drive_link) and place them in the \pretrained folder.
 - Environment setup is mentioned in the PixelFormer.ipynb
 
 ## How to Run
-- By default, the code is configured to train and evaluate the model, which utilizes efficient Attention.
+- By default, the code is configured to train and evaluate the model which utilizes Efficient Attention.
 - Changes to the training config can be done in the ```configs/arguments_train_nyu.txt```
 ### Training 
 - Run the following Python file to train the model on the NYU depthV2 dataset.
