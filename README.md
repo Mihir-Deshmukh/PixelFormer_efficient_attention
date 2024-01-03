@@ -14,12 +14,13 @@ Aims to reduce the inference time while maintaining performance for monocular de
 
 ## How to Run
 - By default, the code is configured to train and evaluate the model, which utilizes efficient Attention.
-# Training 
+- Changes to the training config can be done in the ```configs/arguments_train_nyu.txt```
+### Training 
 - Run the following Python file to train the model on the NYU depthV2 dataset.
   ```
   python pixelformer/train.py configs/arguments_train_nyu.txt
   ```
-# Evaulation and Testing
+### Evaluation and Testing
 - Run the following two commands to run eval and testing. 
   ```
   python pixelformer/eval.py configs/arguments_eval_nyu.txt
