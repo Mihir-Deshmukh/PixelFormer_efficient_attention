@@ -10,7 +10,21 @@ Aims to reduce the inference time while maintaining performance for monocular de
 
 ## Pretrained Models (NYU DepthV2)
 - Download all the models from this [Link](https://drive.google.com/drive/folders/1fVyQnh1IAaJc3OVptSXZ0MkysYpbAVTo?usp=drive_link) and place them in the \pretrained folder.
-- Environment setup and how to run are mentioned in the PixelFormer.ipynb
+- Environment setup is mentioned in the PixelFormer.ipynb
+
+## How to Run
+- By default, the code is configured to train and evaluate the model, which utilizes efficient Attention.
+# Training 
+- Run the following Python file to train the model on the NYU depthV2 dataset.
+  ```
+  python pixelformer/train.py configs/arguments_train_nyu.txt
+  ```
+# Evaulation and Testing
+- Run the following two commands to run eval and testing. 
+  ```
+  python pixelformer/eval.py configs/arguments_eval_nyu.txt
+  python pixelformer/test.py configs/arguments_test_nyu.txt
+  ```
 
 ## Acknowledgements
 The code utilized in this project has been adapted from the [PixelFormer](https://github.com/ashutosh1807/PixelFormer) repository. For a comprehensive view of the entire architecture, please refer to the original repository.
